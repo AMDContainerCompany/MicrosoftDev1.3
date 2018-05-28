@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CompileResult scriptPath="C:\Users\aydua\source\repos\Microsoft Azure U-SQL Application1 2018\Microsoft Azure U-SQL Application1 2018\bin\Release\Script\Script.usql"><Error><Start>23838</Start><End>23839</End><Message>E_CSC_USER_SYNTAXERROR: syntax error. Expected one of: SYSTEM ASSEMBLY 
+Description:
+Invalid syntax found in the script.
+Resolution:
+Correct the script syntax, using expected token(s) as a guide.... at token '=', line 15
+near the ###:
+**************
+ "__codeBehind_h4r3ea0x.elt.pdb");
+
+REFERENCE ASSEMBLY [__codeBehind_h4r3ea0x.elt];
+
+
+
+// Auto-generated header code ended
+// User script
+
+
+REFERENCE  ### =
+    REDUCE @p
+    ON y
+    PRODUCE JVM int
+    USING new MYDupu Qi();
+
+REFERENCE =
+    REDUCE @p
+    ON y
+    PRODUCE JVM int
+    USING new MYDupu Q</Message></Error><Error><Start>23927</Start><End>23928</End><Message>E_CSC_USER_SYNTAXERROR: syntax error. Expected one of: SYSTEM ASSEMBLY 
+Description:
+Invalid syntax found in the script.
+Resolution:
+Correct the script syntax, using expected token(s) as a guide.... at token '=', line 21
+near the ###:
+**************
+
+
+// Auto-generated header code ended
+// User script
+
+
+REFERENCE =
+    REDUCE @p
+    ON y
+    PRODUCE JVM int
+    USING new MYDupu Qi();
+
+REFERENCE  ### =
+    REDUCE @p
+    ON y
+    PRODUCE JVM int
+    USING new MYDupu Qi();
+    
+REFERENCE =
+    REDUCE @p
+    ON y
+    PRODUCE JVM int
+    USING new MYDu</Message></Error><Error><Start>24020</Start><End>24021</End><Message>E_CSC_USER_SYNTAXERROR: syntax error. Expected one of: SYSTEM ASSEMBLY 
+Description:
+Invalid syntax found in the script.
+Resolution:
+Correct the script syntax, using expected token(s) as a guide.... at token '=', line 27
+near the ###:
+**************
+ON y
+    PRODUCE JVM int
+    USING new MYDupu Qi();
+
+REFERENCE =
+    REDUCE @p
+    ON y
+    PRODUCE JVM int
+    USING new MYDupu Qi();
+    
+REFERENCE  ### =
+    REDUCE @p
+    ON y
+    PRODUCE JVM int
+    USING new MYDupu Qi();
+// User script ended
+// Auto-generated footer code
+USE DATABASE [master];
+USE SC</Message></Error></CompileResult>

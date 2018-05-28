@@ -1,0 +1,9 @@
+﻿{
+"CompilerPlanStart":"2018\/05\/28 21:42:12"
+},
+{
+"Settings":"-c++ -mp -pdb Partial -OUTPUT_PATH C:\\Users\\aydua\\AppData\\Local\\USQLDataRoot -cosmosCluster localhost -apEnvironment Default -apCluster localhost -On ForceShadowCopy -On ADL -On USQL -Off SQLIPSQLProxy -Off SQLIPSQLProxyNative -SplitPartitionThreshold 52428800 -ClientVersion 10.2.2.0"
+},
+{
+"CompilerPlanEnd":"2018\/05\/28 21:42:13"
+}

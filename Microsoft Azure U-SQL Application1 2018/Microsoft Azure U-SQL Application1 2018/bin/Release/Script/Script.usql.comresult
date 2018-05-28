@@ -1,0 +1,214 @@
+<?xml version="1.0"?>
+<CommonCompileResult xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <InputStreams />
+  <ScriptPath>C:\Users\aydua\source\repos\Microsoft Azure U-SQL Application1 2018\Microsoft Azure U-SQL Application1 2018\bin\Release\Script\Script.usql</ScriptPath>
+  <ScopeVertexDefinitionPath>C:\Users\aydua\source\repos\Microsoft Azure U-SQL Application1 2018\Microsoft Azure U-SQL Application1 2018\bin\Release\Script\ScopeVertexDef.xml</ScopeVertexDefinitionPath>
+  <AlgebraPath>C:\Users\aydua\source\repos\Microsoft Azure U-SQL Application1 2018\Microsoft Azure U-SQL Application1 2018\bin\Release\Script\__script__.abr</AlgebraPath>
+  <ErrorList>
+    <Error>
+      <Line>15</Line>
+      <Column>11</Column>
+      <Start>23838</Start>
+      <End>23839</End>
+      <Message>E_CSC_USER_SYNTAXERROR: syntax error. Expected one of: SYSTEM ASSEMBLY 
+Description:
+Invalid syntax found in the script.
+Resolution:
+Correct the script syntax, using expected token(s) as a guide.</Message>
+      <InternalDebugInfo>E_CSC_USER_SYNTAXERROR: syntax error. Expected one of: SYSTEM ASSEMBLY 
+Description:
+Invalid syntax found in the script.
+Resolution:
+Correct the script syntax, using expected token(s) as a guide.... at token '=', line 15
+near the ###:
+**************
+ "__codeBehind_h4r3ea0x.elt.pdb");
+
+REFERENCE ASSEMBLY [__codeBehind_h4r3ea0x.elt];
+
+
+
+// Auto-generated header code ended
+// User script
+
+
+REFERENCE  ### =
+    REDUCE @p
+    ON y
+    PRODUCE JVM int
+    USING new MYDupu Qi();
+
+REFERENCE =
+    REDUCE @p
+    ON y
+    PRODUCE JVM int
+    USING new MYDupu Q
+**************
+   場所 ScopeCompiler.CompilerDiagnostic.CreateInternal(DiagnosticCode code, Token anchor, Boolean pastTokenEnd, Script script, Object[] args)
+   場所 ScopeCompiler.FrontEnd.ScriptParser.Yyerror(String s)
+   場所 ScopeCompiler.FrontEnd.ScopeParserBase.Yyparse()
+   場所 ScopeCompiler.FrontEnd.ScriptParser.Parse()
+   場所 ScopeCompiler.FrontEnd.SqlAstBuilder.BuildAst(Compiler compiler, FunctionCall parentCall, NameContext nameContext, SubroutineType subroutineType, Script parent, DiagnosticCollection diagnostics, Script[] legacyScripts)
+   場所 ScopeCompiler.FrontEnd.SqlAstBuilder.BuildAst(Script[] scripts)
+   場所 ScopeCompiler.FrontEnd.SqlCompileStrategy.&lt;&gt;c__DisplayClass7_0.&lt;AstBuildingPass&gt;b__1()
+   場所 ScopeCompiler.FrontEnd.CompilePassHelper.Run(Action pass, Compiler compiler, CompilerTimer timer, Boolean throwOnErrors)
+   場所 ScopeCompiler.FrontEnd.FrontEndRunner.Execute()
+   場所 ScopeCompiler.FrontEnd.CompilePipeline.DoExecutePipeline()
+   場所 ScopeCompiler.FrontEnd.CompilePipeline.DoCompile()
+   場所 ScopeCompiler.FrontEnd.CompilePipeline.CreateContextAndCompile()
+   場所 ScopeCompiler.FrontEnd.CompilePipeline.Execute()
+   場所 Microsoft.Analytics.LocalRun.LocalParseSandboxer.PrivateParse(String script, Settings settings)
+   場所 System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]&amp; outArgs)
+   場所 System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+   場所 System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+   場所 System.Runtime.Remoting.Messaging.ServerContextTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+   場所 System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessageCallback(Object[] args)
+   場所 System.Threading.Thread.InternalCrossContextCallback(Context ctx, IntPtr ctxID, Int32 appDomainID, InternalCrossContextDelegate ftnToCall, Object[] args)
+   場所 System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessage(IMessage reqMsg)
+   場所 System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(IMessage msg)
+   場所 System.Runtime.Remoting.Channels.CrossAppDomainSink.DoDispatch(Byte[] reqStmBuff, SmuggledMethodCallMessage smuggledMcm, SmuggledMethodReturnMessage&amp; smuggledMrm)
+   場所 System.Runtime.Remoting.Channels.CrossAppDomainSink.DoTransitionDispatchCallback(Object[] args)
+</InternalDebugInfo>
+    </Error>
+    <Error>
+      <Line>21</Line>
+      <Column>11</Column>
+      <Start>23927</Start>
+      <End>23928</End>
+      <Message>E_CSC_USER_SYNTAXERROR: syntax error. Expected one of: SYSTEM ASSEMBLY 
+Description:
+Invalid syntax found in the script.
+Resolution:
+Correct the script syntax, using expected token(s) as a guide.</Message>
+      <InternalDebugInfo>E_CSC_USER_SYNTAXERROR: syntax error. Expected one of: SYSTEM ASSEMBLY 
+Description:
+Invalid syntax found in the script.
+Resolution:
+Correct the script syntax, using expected token(s) as a guide.... at token '=', line 21
+near the ###:
+**************
+
+
+// Auto-generated header code ended
+// User script
+
+
+REFERENCE =
+    REDUCE @p
+    ON y
+    PRODUCE JVM int
+    USING new MYDupu Qi();
+
+REFERENCE  ### =
+    REDUCE @p
+    ON y
+    PRODUCE JVM int
+    USING new MYDupu Qi();
+    
+REFERENCE =
+    REDUCE @p
+    ON y
+    PRODUCE JVM int
+    USING new MYDu
+**************
+   場所 ScopeCompiler.CompilerDiagnostic.CreateInternal(DiagnosticCode code, Token anchor, Boolean pastTokenEnd, Script script, Object[] args)
+   場所 ScopeCompiler.FrontEnd.ScriptParser.Yyerror(String s)
+   場所 ScopeCompiler.FrontEnd.ScopeParserBase.Yyparse()
+   場所 ScopeCompiler.FrontEnd.ScriptParser.Parse()
+   場所 ScopeCompiler.FrontEnd.SqlAstBuilder.BuildAst(Compiler compiler, FunctionCall parentCall, NameContext nameContext, SubroutineType subroutineType, Script parent, DiagnosticCollection diagnostics, Script[] legacyScripts)
+   場所 ScopeCompiler.FrontEnd.SqlAstBuilder.BuildAst(Script[] scripts)
+   場所 ScopeCompiler.FrontEnd.SqlCompileStrategy.&lt;&gt;c__DisplayClass7_0.&lt;AstBuildingPass&gt;b__1()
+   場所 ScopeCompiler.FrontEnd.CompilePassHelper.Run(Action pass, Compiler compiler, CompilerTimer timer, Boolean throwOnErrors)
+   場所 ScopeCompiler.FrontEnd.FrontEndRunner.Execute()
+   場所 ScopeCompiler.FrontEnd.CompilePipeline.DoExecutePipeline()
+   場所 ScopeCompiler.FrontEnd.CompilePipeline.DoCompile()
+   場所 ScopeCompiler.FrontEnd.CompilePipeline.CreateContextAndCompile()
+   場所 ScopeCompiler.FrontEnd.CompilePipeline.Execute()
+   場所 Microsoft.Analytics.LocalRun.LocalParseSandboxer.PrivateParse(String script, Settings settings)
+   場所 System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]&amp; outArgs)
+   場所 System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+   場所 System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+   場所 System.Runtime.Remoting.Messaging.ServerContextTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+   場所 System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessageCallback(Object[] args)
+   場所 System.Threading.Thread.InternalCrossContextCallback(Context ctx, IntPtr ctxID, Int32 appDomainID, InternalCrossContextDelegate ftnToCall, Object[] args)
+   場所 System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessage(IMessage reqMsg)
+   場所 System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(IMessage msg)
+   場所 System.Runtime.Remoting.Channels.CrossAppDomainSink.DoDispatch(Byte[] reqStmBuff, SmuggledMethodCallMessage smuggledMcm, SmuggledMethodReturnMessage&amp; smuggledMrm)
+   場所 System.Runtime.Remoting.Channels.CrossAppDomainSink.DoTransitionDispatchCallback(Object[] args)
+</InternalDebugInfo>
+    </Error>
+    <Error>
+      <Line>27</Line>
+      <Column>11</Column>
+      <Start>24020</Start>
+      <End>24021</End>
+      <Message>E_CSC_USER_SYNTAXERROR: syntax error. Expected one of: SYSTEM ASSEMBLY 
+Description:
+Invalid syntax found in the script.
+Resolution:
+Correct the script syntax, using expected token(s) as a guide.</Message>
+      <InternalDebugInfo>E_CSC_USER_SYNTAXERROR: syntax error. Expected one of: SYSTEM ASSEMBLY 
+Description:
+Invalid syntax found in the script.
+Resolution:
+Correct the script syntax, using expected token(s) as a guide.... at token '=', line 27
+near the ###:
+**************
+ON y
+    PRODUCE JVM int
+    USING new MYDupu Qi();
+
+REFERENCE =
+    REDUCE @p
+    ON y
+    PRODUCE JVM int
+    USING new MYDupu Qi();
+    
+REFERENCE  ### =
+    REDUCE @p
+    ON y
+    PRODUCE JVM int
+    USING new MYDupu Qi();
+// User script ended
+// Auto-generated footer code
+USE DATABASE [master];
+USE SC
+**************
+   場所 ScopeCompiler.CompilerDiagnostic.CreateInternal(DiagnosticCode code, Token anchor, Boolean pastTokenEnd, Script script, Object[] args)
+   場所 ScopeCompiler.FrontEnd.ScriptParser.Yyerror(String s)
+   場所 ScopeCompiler.FrontEnd.ScopeParserBase.Yyparse()
+   場所 ScopeCompiler.FrontEnd.ScriptParser.Parse()
+   場所 ScopeCompiler.FrontEnd.SqlAstBuilder.BuildAst(Compiler compiler, FunctionCall parentCall, NameContext nameContext, SubroutineType subroutineType, Script parent, DiagnosticCollection diagnostics, Script[] legacyScripts)
+   場所 ScopeCompiler.FrontEnd.SqlAstBuilder.BuildAst(Script[] scripts)
+   場所 ScopeCompiler.FrontEnd.SqlCompileStrategy.&lt;&gt;c__DisplayClass7_0.&lt;AstBuildingPass&gt;b__1()
+   場所 ScopeCompiler.FrontEnd.CompilePassHelper.Run(Action pass, Compiler compiler, CompilerTimer timer, Boolean throwOnErrors)
+   場所 ScopeCompiler.FrontEnd.FrontEndRunner.Execute()
+   場所 ScopeCompiler.FrontEnd.CompilePipeline.DoExecutePipeline()
+   場所 ScopeCompiler.FrontEnd.CompilePipeline.DoCompile()
+   場所 ScopeCompiler.FrontEnd.CompilePipeline.CreateContextAndCompile()
+   場所 ScopeCompiler.FrontEnd.CompilePipeline.Execute()
+   場所 Microsoft.Analytics.LocalRun.LocalParseSandboxer.PrivateParse(String script, Settings settings)
+   場所 System.Runtime.Remoting.Messaging.StackBuilderSink._PrivateProcessMessage(IntPtr md, Object[] args, Object server, Object[]&amp; outArgs)
+   場所 System.Runtime.Remoting.Messaging.StackBuilderSink.SyncProcessMessage(IMessage msg)
+   場所 System.Runtime.Remoting.Messaging.ServerObjectTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+   場所 System.Runtime.Remoting.Messaging.ServerContextTerminatorSink.SyncProcessMessage(IMessage reqMsg)
+   場所 System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessageCallback(Object[] args)
+   場所 System.Threading.Thread.InternalCrossContextCallback(Context ctx, IntPtr ctxID, Int32 appDomainID, InternalCrossContextDelegate ftnToCall, Object[] args)
+   場所 System.Runtime.Remoting.Channels.CrossContextChannel.SyncProcessMessage(IMessage reqMsg)
+   場所 System.Runtime.Remoting.Channels.ChannelServices.SyncDispatchMessage(IMessage msg)
+   場所 System.Runtime.Remoting.Channels.CrossAppDomainSink.DoDispatch(Byte[] reqStmBuff, SmuggledMethodCallMessage smuggledMcm, SmuggledMethodReturnMessage&amp; smuggledMrm)
+   場所 System.Runtime.Remoting.Channels.CrossAppDomainSink.DoTransitionDispatchCallback(Object[] args)
+</InternalDebugInfo>
+    </Error>
+  </ErrorList>
+  <WarningList />
+  <HelperCodePath>C:\Users\aydua\source\repos\Microsoft Azure U-SQL Application1 2018\Microsoft Azure U-SQL Application1 2018\bin\Release\Script\__ScopeCodeGenEngine__.dll.cpp</HelperCodePath>
+  <ResourceList />
+  <ReferenceList />
+  <ClusterResourceList />
+  <LocalRunSteps />
+  <LocalRunCachePath>C:\Users\aydua\source\repos\Microsoft Azure U-SQL Application1 2018\Microsoft Azure U-SQL Application1 2018\bin\Release\Script</LocalRunCachePath>
+  <LocalRunTempPath>C:\Users\aydua\source\repos\Microsoft Azure U-SQL Application1 2018\Microsoft Azure U-SQL Application1 2018\bin\Release\Script\_TMP</LocalRunTempPath>
+  <LocalRunRuntimePath>C:\Users\aydua\source\repos\Microsoft Azure U-SQL Application1 2018\Microsoft Azure U-SQL Application1 2018\bin\Release\Script</LocalRunRuntimePath>
+  <ScopeWorkingDir>C:\Users\aydua\source\repos\Microsoft Azure U-SQL Application1 2018\Microsoft Azure U-SQL Application1 2018\bin\Release\Script</ScopeWorkingDir>
+</CommonCompileResult>

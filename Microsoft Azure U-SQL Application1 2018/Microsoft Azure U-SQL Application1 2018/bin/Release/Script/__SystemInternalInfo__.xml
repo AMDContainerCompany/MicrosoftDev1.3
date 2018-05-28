@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CSSRelatedInfo>
+  <ScopeCounters>
+    <Counter Name="Overall" Value="1.2600747" Unit="second" Intervals="0" />
+    <Counter Name="ResourcesDownloading" Value="0" Unit="second" Intervals="0" />
+    <Counter Name="FrontEndRun" Value="0.5226616" Unit="second" Intervals="0" />
+    <Counter Name="AstBuilder" Value="0.3159484" Unit="second" Intervals="0" />
+  </ScopeCounters>
+</CSSRelatedInfo>

@@ -1,0 +1,18 @@
+﻿
+REFERENCE =
+    REDUCE @p
+    ON y
+    PRODUCE JVM int
+    USING new MYDupu Qi();
+
+REFERENCE =
+    REDUCE @p
+    ON y
+    PRODUCE JVM int
+    USING new MYDupu Qi();
+    
+REFERENCE =
+    REDUCE @p
+    ON y
+    PRODUCE JVM int
+    USING new MYDupu Qi();
